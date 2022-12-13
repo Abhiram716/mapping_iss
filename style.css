@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  color: yellow;
+  background-color: black;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  color: white;
+  background-color: grey;
+  box-sizing: border-box;
+}
+
+#map {
+  height: 668px;
+  border: none;
+  outline: none;
+}
+
+.vis {
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+}
+
