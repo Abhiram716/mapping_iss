@@ -20,11 +20,8 @@ const apiUrl = "https://api.wheretheiss.at/v1/satellites/25544";
 const getIssLoc = async () => {
   const response = await fetch(apiUrl);
   const data = await response.json();
-  const { latitude } = data;
-  const { longitude } = data;
-  const { velocity } = data;
-  const { visibility } = data;
-  const { altitude } = data;
+  
+  const { latitude, longitude, velocity, visibility, altitude } = data;
 
   document.querySelector(".alt").innerText = `Altitude: ${altitude}`;
   document.querySelector(".lon").innerText = `Longitude: ${longitude}`;
