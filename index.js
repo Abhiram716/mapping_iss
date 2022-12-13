@@ -42,3 +42,4 @@ const getIssLoc = async () => {
 getIssLoc();
 
 setInterval(getIssLoc, 1000);
+
